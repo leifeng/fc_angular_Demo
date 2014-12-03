@@ -1,0 +1,249 @@
+/*重置样式*/
+.row {
+    margin: 0;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.label-primary {
+    background-color: #3bafda;
+}
+
+.panel-green {
+    border-color: #8cc152;
+}
+
+.panel-green > .panel-heading {
+    color: #fff;
+    background-color: #8cc152;
+    border-color: #8cc152;
+}
+
+.panel-blue {
+    border-color: #3bafda;
+}
+
+.panel-blue > .panel-heading {
+    color: #fff;
+    background-color: #3bafda;
+    border-color: #3bafda;
+}
+
+/*公共*/
+
+.orange {
+    color: #fa8148;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(45, 45, 45, 0.36);
+    width: 100%;
+    height: auto;
+    height: 100%;
+    z-index: 10;
+}
+
+/*头部*/
+.header {
+
+    background-color: #72b9fa;
+    text-align: right;
+    line-height: 23px;
+}
+
+.header .menuico {
+    font-size: 20px;
+    color: #fff;
+    margin: 8px 0;
+}
+
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+.header ul li {
+    padding: 0 10px;
+    line-height: 30px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.header ul li a {
+    color: #463265;
+    display: block;
+}
+
+/*首页*/
+.index_top {
+    background: url('http://fcwap.0372.cn/images/top.jpg') no-repeat;
+    background-size: 100% 100%;
+    height: 160px;
+}
+
+.index_top_link {
+    border: 2px solid #72b9fa;
+    background-color: #fff;
+    color: #c0c0c0;
+    line-height: 35px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 12px;
+    text-indent: 8px;
+    overflow: hidden;
+}
+
+.index_top_link span {
+    background-color: #72b9fa;
+    color: #fff;
+    display: inline-block;
+    float: right;
+    width: 40px
+}
+
+.index_body {
+    font-size: 12px;
+}
+
+.index_body img {
+    width: 60px;
+    height: 60px;
+}
+
+/*列表*/
+.houseList {
+    position: relative;
+}
+
+.searchBar {
+    padding: 10px 0;
+}
+
+.searchBar input {
+    border: 1px solid #72b9fa;
+}
+
+.searchBar .searchBtn {
+    background-color: #72b9fa;
+    color: #fff;
+}
+
+.filterBar div {
+    color: #72b9fa;
+    border: 1px solid #d8d8d8;
+    line-height: 30px;
+}
+
+.filterList {
+    position: absolute;
+    z-index: 30;
+    width: 90%;
+    box-shadow: 1px 1px 5px;
+}
+
+.listBar {
+    background-color: #72b9fa;
+    line-height: 30px;
+    color: #fff;
+    padding-left: 5px;
+}
+
+.listBar span {
+    color: #ffff00;
+}
+
+.listData {
+    background-color: #fff;
+    padding: 0 5px;
+}
+
+.listData ul li {
+    overflow: hidden;
+    background-color: #F6F5FA;
+    font-size: 12px;
+    margin: 3px 0;
+    padding: 3px 0;
+}
+
+.listData ul li .left {
+    width: 125px;
+    margin-left: -100%;
+}
+
+.listData ul li .right {
+    width: 100%;
+}
+
+.listData ul li .right .listInfo {
+    margin-left: 140px;
+    line-height: 25px
+}
+
+.listData img {
+    width: 125px;
+    height: 100px;
+    max-width: 100%;
+    min-width: 130px;
+}
+
+.listData .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.listData .price {
+    color: orange;
+    font-weight: bolder;
+    float: right;
+    font-size: 16px;
+}
+
+.listData .houseType {
+    color: #73BDEE;
+
+}
+
+/*详情页*/
+.detail_top {
+    text-align: center;
+    position: relative;
+    display: block;
+    margin: 5px auto;
+}
+
+.detail_top img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.detail_top span {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.53);
+    color: #fff;
+}
+/*动态列表*/
+.dt_list{
+    border-left:3px solid #c4c4c4;
+    padding: 0;
+    position:relative;
+}
+.dt_list li{
+    line-height: 23px;
+}
+
+.dt_list li span{
+    position:relative;
+    left: -8px;
+    color:#c4c4c4
+}

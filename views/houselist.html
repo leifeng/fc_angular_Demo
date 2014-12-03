@@ -1,0 +1,30 @@
+<div ui-view="header"></div>
+<div ng-controller="houseListCtrl" class="houseList">
+    <div class="row">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-10 text-center">
+            <div class="input-group searchBar">
+                <searchtxt></searchtxt>
+                <div class="input-group-addon searchBtn" ng-click="getList()" >搜索</div>
+            </div>
+        </div>
+        <div class="col-xs-1"></div>
+    </div>
+    <div class="row text-center filterBar">
+        <div class="col-xs-4" ng-click="showFilter('qy')">区域</div>
+        <div class="col-xs-4" ng-click="showFilter('jg')">价格</div>
+        <div class="col-xs-4" ng-click="showFilter('lx')">类型</div>
+    </div>
+    <mask></mask>
+    <filter></filter>
+    <div class="listBar">
+        {{filterType}} 共[<span>{{total}}</span>]个楼盘
+    </div>
+    <div class="listData">
+        <ul class="list-unstyled">
+            <li  ng-repeat="item in result">
+                <houselist></houselist>
+            </li>
+        </ul>
+    </div>
+</div>

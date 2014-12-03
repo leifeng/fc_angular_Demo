@@ -1,0 +1,10 @@
+<div ui-view="header"></div>
+<div class="row" ng-controller="hxListCtrl">
+    <div class="col-xs-12">
+        <ul class="list-group">
+            <li class="list-group-item" ng-repeat="item in items | topN :'6'">
+                <span class="badge">{{item.area}}</span>{{item.name}} {{item.type}}
+            </li>
+        </ul>
+    </div>
+</div>
